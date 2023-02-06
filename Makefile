@@ -2,7 +2,7 @@ NAME = push_swap
 
 SRC_PATH = ./src/
 OBJS_PATH = ./
-SRC = ./src/push_swap.c src/utils.c
+SRC = ./src/push_swap.c src/utils.c src/args.c
 
 OBJS = $(SRC:$(SRC_PATH)%.c=$(OBJS_PATH)%.o)
 
